@@ -22,9 +22,9 @@ const Salesearchbar = ({filterrequired=true , datefilterrequired=true}) => {
   const [isFilterMenuOpen, setFilterMenuOpen] = useState(false);
   const [isTodayMenuOpen, setTodayMenuOpen] = useState(false);
 
-  const filtericon = "./Assets/Images/filter.svg";
-  const dateicon = "./Assets/Images/date.svg";
-  const searchicon = "./Assets/Images/search.svg";
+  const filtericon = "/Assets/Images/filter.svg";
+  const dateicon = "/Assets/Images/date.svg";
+  const searchicon = "/Assets/Images/search.svg";
 
   const toggleFilterMenu = () => {
     setFilterMenuOpen(!isFilterMenuOpen);

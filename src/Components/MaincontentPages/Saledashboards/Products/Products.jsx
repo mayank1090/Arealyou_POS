@@ -1,13 +1,10 @@
 import React from "react";
 import "./Products.css";
-
-
-
 const Products = () => {
-
+ 
     const productsList=[{
         name:"RICA WAX",
-        image:"./Assets/Images/productimage.svg",
+        image:"/Assets/Images/productimage.svg",
         quantity:"Unlimited",
         category:"Hair",
         Price:"180"

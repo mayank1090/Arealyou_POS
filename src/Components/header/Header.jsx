@@ -7,7 +7,7 @@ const Header = () => {
         <div className='sampleparent flex flex-col'>
     <div className='headerone flex justify-between px-8 py-4 border-2 border-black'>
     <div className='lefticon'>
-        <img src='./Assets/Images/Arealyou.jpg' className='companylogo w-full' alt='logo'/>
+        <img src='./Assets/Images/Arealyou.svg' className='companylogo w-full' alt='logo'/>
     </div>
     <div className='rightmenu flex items-center gap-4'>
         <div className='processbar flex justify-between items-center  '>
@@ -18,13 +18,13 @@ const Header = () => {
 </svg>
         </div>
         <button className='navbarbtn'>
-            <img  src='./Assets/Images/search.jpg' className='searchicon w-full h-full' alt='search'/>
+            <img  src='./Assets/Images/searchhead.svg' className='searchicon w-7 h-6' alt='search'/>
         </button>
         <button className='navbarbtn'>
-            <img src='./Assets/Images/notification.jpg' className='notification w-full h-full' alt='notification'/>
+            <img src='./Assets/Images/notification.svg' className='notification w-5 h-6' alt='notification'/>
         </button>
         <button className='navbarbtn'>
-            <img src='./Assets/Images/ring.jpg' className='ringone  w-full h-full' alt='ring'/>
+            <img src='./Assets/Images/ring.svg' className='ringone w-6 h-6' alt='ring'/>
         </button>
         <button className='userprofilebtn text-center '>
             <p className='userprofile'>A</p>

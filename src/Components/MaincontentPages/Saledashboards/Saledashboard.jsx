@@ -5,12 +5,12 @@ import Cheakoutsale from "./Tocheckout/Checkoutsale";
 import Products from "./Products/Products";
 import Services from "./Services/Services";
 import Nocontent from "./Nocontent/Nocontent";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 const Saledashboard = () => {
   const [currentsalenavbar, setcurrentsalenavbar] = useState("");
 
-  const membershipicon = "./Assets/Images/membership.svg";
+  const membershipicon = "/Assets/Images/membership.svg";
 
   return (
     <div className="flex w-full">
@@ -18,7 +18,7 @@ const Saledashboard = () => {
           <Saledashboardnavbar setcurrentsalenavbar={setcurrentsalenavbar} />
           <Routes>
             <Route
-              path="/quickcheckout"
+              path="/"
               element={
                 <Nocontent
                   imgpath={membershipicon}
