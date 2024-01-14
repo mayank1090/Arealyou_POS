@@ -1,6 +1,6 @@
 // AppointmentCard.js
 import React from 'react';
-import './AppointmentCard.css'; // Make sure to create an AppointmentCard.css file for styles
+import './Appointmentcard.css'; // Make sure to create an AppointmentCard.css file for styles
 
 const AppointmentCard = ({ date, time, status, services, therapist, duration }) => {
   return (
