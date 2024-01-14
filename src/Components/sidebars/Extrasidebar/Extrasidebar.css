@@ -1,0 +1,54 @@
+.secondary-sidebar {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  flex-grow: 1;
+  min-width: 19rem;
+}
+
+.uppersubheadprnt,
+.uppersubmidprnt {
+  flex-basis: 27%;
+  padding: 3rem 1.5rem;
+  border: 1px solid #000;
+border-left: 0px;
+}
+
+.uppersubmlastdprnt {
+  flex-basis: 46%;
+  padding: 3rem 1.5rem;
+  border: 1px solid #000;
+border-left: 0px;
+}
+
+.sidebarheading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.subheadp {
+  padding-top: 1.5rem;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* This will hide the scrollbar in Webkit-based browsers like Chrome and Safari */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* This will hide the scrollbar in Firefox */
+.scrollbar-hide {
+  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none;  /* for Internet Explorer and Edge */
+}

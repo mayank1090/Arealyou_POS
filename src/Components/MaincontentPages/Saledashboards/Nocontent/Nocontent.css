@@ -1,0 +1,25 @@
+.quicksaleprnt{
+    border: 1px solid #B3B3B3;
+    
+}
+
+.belownosale{
+    color: #000;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 1.5rem;
+}
+
+.lastnosale{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 0.5rem;
+}

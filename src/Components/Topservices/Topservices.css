@@ -1,0 +1,58 @@
+.top-services-card {
+    width: 100%;
+    /* Adjust as needed */
+}
+
+.servicehaed {
+    color: #121212;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem;
+    /* 62.5% */
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-row.header {
+    font-weight: bold;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.2rem;
+}
+
+.service-title {
+    flex-basis: 50%;
+}
+
+.servicebelowhaed{
+    color: #000;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.service-count {
+    flex-basis: 25%;
+    /* Adjust as needed */
+    text-align: center;
+}
+
+.servicebelowli{
+    color: #8C8C8C;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

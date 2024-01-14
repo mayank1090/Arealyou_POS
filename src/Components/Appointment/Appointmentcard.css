@@ -1,0 +1,49 @@
+/* .leftdateprnt{
+    width: 10%;
+}
+
+.amontorfreeprnt{
+    width: 10%;
+} */
+
+/* .appointment-date{
+    width: 75%;
+} */
+
+.datenumber{color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+
+.datemonth{color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;} 
+    
+ .appointment-day,.appointment-time,.appointment-therapist{
+    color: #8C8C8C;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ 
+ .appointmexznt-status{color: #002EFF;
+    font-family: Montserrat;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;}
+
+ .appointment-services,.amountorfree{color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}   

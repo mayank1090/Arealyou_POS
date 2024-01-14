@@ -1,0 +1,32 @@
+.Productsprnt {
+    border: 1px solid #B3B3B3;
+    background: #F2FAFD;
+}
+
+.productsrow{
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.productshead {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.toprow{
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.paginationtext{
+    color: #000;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}

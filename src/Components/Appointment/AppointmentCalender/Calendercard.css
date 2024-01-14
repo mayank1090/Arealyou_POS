@@ -1,0 +1,56 @@
+.no-appointments-card {
+    width: 100%; /* Adjust as per your requirement */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .icon-container {
+    /* Add styles for your icon container */
+    font-size: 3rem; /* Adjust size as needed */
+  }
+  
+  .noh2{
+    color: #121212;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem; /* 62.5% */
+  }
+  
+  .no-appointments-card p {
+    color: #5D5D5D;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  
+  .no-appointments-card a {
+    color: #002EFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  
+  .no-appointments-card a:hover {
+    text-decoration: underline;
+  }
+
+  p.appoint-head{
+    text-align: start;
+    color: #121212;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem; /* 62.5% */}
+  

@@ -1,0 +1,55 @@
+.card-heading {
+    color: #121212;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem;
+}
+
+.faded-heading {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.lower-blackhead {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    /* 58.333% */
+    letter-spacing: 0.1575rem;
+    padding-top: 0.75rem;
+    padding-bottom: 1.5rem;
+}
+
+.sublowerfaded {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem;
+    padding: 0.5 0;
+}
+
+.lowerbold {
+    color: #454545;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.9375rem;
+}
+
+.sublowerfaded:nth-child(1) {
+    margin-bottom: 2rem;
+}

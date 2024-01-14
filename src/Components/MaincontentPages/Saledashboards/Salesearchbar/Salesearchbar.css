@@ -1,0 +1,47 @@
+.search-filter-section {
+    display: flex;
+    padding: 1.5rem 1.25rem;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border: 1px solid #B3B3B3;
+    background: #D0EEF8;
+    box-shadow: 6px 4px 4px 0px #626161;
+    flex-wrap: wrap;
+}
+
+.inputprntofcheck {
+    width: 70%;
+    border-radius: 4rem;
+    border: 1px solid #B3B3B3;
+    background: #FFF;
+    padding: 0.5rem 1.25rem;
+
+}
+
+.filter-button,
+.today-button {
+    position: relative;
+    border-radius: 4rem;
+    border: 1px solid #B3B3B3;
+    cursor: pointer;
+    width: 14%;
+    padding: 0.5rem 1.25rem;
+    width: 6.81669rem;
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    background-color: #FFF;
+}
+
+.searchboxforcheckout::placeholder {
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

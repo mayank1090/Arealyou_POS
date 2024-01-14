@@ -1,0 +1,21 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+    min-width: 5rem;
+    
+  }
+  
+  .icon {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .sidebar-container{
+     display: flex;
+     height: 100%;
+  }

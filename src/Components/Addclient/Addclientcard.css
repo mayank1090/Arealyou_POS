@@ -1,0 +1,11 @@
+.addclientsec{
+    border: 1px solid #BDBDBD;
+}
+
+.Addclienttext{color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;}
