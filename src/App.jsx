@@ -5,6 +5,7 @@ import Saledashboardnavbar from './Components/MaincontentPages/Saledashboards/Sa
 import Saledashboard from './Components/MaincontentPages/Saledashboards/Saledashboard'
 import Header from './Components/header/Header'
 import Sidebar from './Components/sidebars/Mainsidebar/Mainsidebar'
+import { SpeedInsights } from '@vercel/speed-insights/react';
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       </Routes>
       </BrowserRouter>
      </div>
+     <SpeedInsights/>
      </div>
     </>
   )
