@@ -15,7 +15,7 @@ function App() {
       <Sidebar></Sidebar>
       <Routes>
       <Route path='/saledashboard/*' element={<Saledashboard/>}/>
-      <Route path='/' element={<Graphdashboard/>}/>
+      <Route path='/' index element={<Graphdashboard/>}/>
       </Routes>
       </BrowserRouter>
      </div>
