@@ -32,15 +32,15 @@ const Sidebar = () => {
   return (
     <div className='sidebar-container'>
     <div className="sidebar gap-4">
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="home" source={home} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="home" source={home} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
        <Link className=' w-8 h-8' to="/saledashboard"><Icon name="stat" source={stat} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="smile" source={smile} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="threeline" source={threeline} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="profile" source={profile} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="kyc" source={kyc} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="graph" source={graph} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="setting" source={setting} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
-       <Link className=' w-8 h-8' to="/salegraphs"><Icon name="headphone" source={headphone} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="smile" source={smile} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="threeline" source={threeline} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="profile" source={profile} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="kyc" source={kyc} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="graph" source={graph} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="setting" source={setting} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
+       <Link className=' w-8 h-8' to="/"><Icon name="headphone" source={headphone} handleclick={handleIconClick} selectedIcon={selectedIcon}/></Link>
     </div>
     {secondarySidebar && <SecondarySidebar />}
     </div>
