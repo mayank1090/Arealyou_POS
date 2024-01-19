@@ -1,0 +1,91 @@
+.datenavigationprnt {
+    border-radius: 0.9375rem;
+    border: 3px solid #000;
+}
+
+.todaydayp {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.todaydatep {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.lefttransactionsummarypnt,
+.rightcashtransactionsummarypnt {
+    border-radius: 0.8125rem;
+    border: 1px solid #000;
+}
+
+.transactionsummaryheading {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.itemtransactionsummary ,.thesameforevryliboldofightsec{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    flex-basis: 25%;
+    text-align: center;
+    
+}
+
+.itemtransactionsummary:nth-child(1),.thesameforevryliboldofightsec:nth-child(1){
+    text-align: start;
+}
+
+.thesameforevryli {
+    color: #1400FF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    flex-basis: 25%;
+}
+
+.thesameforevrylibold {
+    color: #1400FF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    flex-basis: 25%;
+
+}
+
+.totalssaestransaction {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}

@@ -1,13 +1,11 @@
-
-
-.onecolumnsection{
+.onecolumnsection {
     width: 90%;
     height: 100%;
 }
 
 
 @media screen and (min-width:1024px) {
-    .onecolumnsection{
+    .onecolumnsection {
         width: 48%;
     }
 }

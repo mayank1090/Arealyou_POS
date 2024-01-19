@@ -6,6 +6,8 @@ import Saledashboard from './Components/MaincontentPages/Saledashboards/Saledash
 import Header from './Components/header/Header'
 import Sidebar from './Components/sidebars/Mainsidebar/Mainsidebar'
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import Salessummary from './Components/MaincontentPages/Salessummary/Salessummary/Salessummary'
+import Appointmentpage from './Components/MaincontentPages/Appointments/Appointmentpage/Appointmentpage'
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
       <Routes>
       <Route path='/saledashboard/*' element={<Saledashboard/>}/>
       <Route path='/' index element={<Graphdashboard/>}/>
+      <Route path='/salessummary' element={<Salessummary/>}/>
+      <Route path='/appointment' element={<Appointmentpage/>}/>
       </Routes>
       </BrowserRouter>
      </div>

@@ -18,7 +18,7 @@ const DropdownMenu = ({ isOpen, title, options }) => {
   );
 };
 
-const Salesearchbar = ({filterrequired=true , datefilterrequired=true}) => {
+const Salesearchbar = ({filterrequired=true , datefilterrequired=true , handleSearch}) => {
   const [isFilterMenuOpen, setFilterMenuOpen] = useState(false);
   const [isTodayMenuOpen, setTodayMenuOpen] = useState(false);
 
@@ -46,6 +46,7 @@ const Salesearchbar = ({filterrequired=true , datefilterrequired=true}) => {
             type="text"
             placeholder="Search by client, team member or service name..."
             className="searchboxforcheckout w-full outline-none flex-grow"
+            onChange={handleSearch}
           />
         </div>
        {filterrequired && <div className="dropprnt relative mt-1 mb-1">

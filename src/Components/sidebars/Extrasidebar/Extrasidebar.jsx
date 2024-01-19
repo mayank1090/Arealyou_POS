@@ -13,7 +13,7 @@ const SecondarySidebar = ({mainhead="Sales",subhead1=["new sales","new sales sum
       </div>
 
       <div className='uppersubmidprnt'>
-      {subhead1.map((stringvalue)=>{
+      {subhead2.map((stringvalue)=>{
         return <p key={stringvalue} className='subheadp'>{stringvalue}</p>
       })}
       </div>
